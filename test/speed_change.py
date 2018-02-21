@@ -5,7 +5,6 @@
 
 import serial   #モジュール名はpyserialだが, importする際はserialである
 
-
 port_num = "COM1"
 def right_speed_up():
     with serial.Serial(port_num,9600,timeout=1) as ser:
