@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pandas
 import numpy as np
-import matplotlib.py as plt
+import matplotlib.pyplot as plt
 import os
 #データの入ったファイルパス指定
 #一度.xlsx形式をexcelで開けた後/txtファイル形式(tab区切り)でデータを読み込む
